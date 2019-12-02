@@ -10,7 +10,7 @@
     transition-duration: 1s;
 }
 .profile-photo.clicked {
-    filter: blur(100px) grayscale(100%);
+    filter: blur(10px) grayscale(100%);
 
 }
 body {
