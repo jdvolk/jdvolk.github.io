@@ -8,11 +8,12 @@
     <style>
         .profile-photo {
             display: block;
-            margin-top: 20%;
             margin-left: auto;
             margin-right: auto;
             border-radius: 15px;
             box-shadow: 0px 13px 20px 10px #111111;
+            object-fit: cover;
+            max-height: 525px;
         }
         body {
             background-color: #1d1d1d;
@@ -25,18 +26,88 @@
             text-shadow:#000000 0px 9px 13px;
         }
         h1 {
-            font-weight: 300;
+            font-weight: 500;
         }
         h2 {
             font-size: 18px;
-            font-weight: 200;
+            font-weight: 300;
         }
+        div.card {
+            text-align:center;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px;
+            background-color: #313131;
+            box-shadow: 0px 13px 20px 10px #111111;
+            width: 80%;
+            max-width: 500px;
+            min-width: 
+            margin-bottom: 10%;
+        }
+        ul.social-links {
+            list-style: none;
+            padding: 0px;
+
+        }
+        ul.social-links li {
+            display: inline-block;
+        }
+        .logo-link {
+            background-color: #5178a0;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            mask-size: cover;
+            mask-position: center;
+            mask-repeat:no-repeat;
+            -webkit-mask-size: cover;
+            -webkit-mask-position: center;
+            -webkit-mask-repeat:no-repeat;
+
+        }
+
+        .github-link {
+            -webkit-mask-image: url(assets/icons/github.svg);
+            mask-image: url(assets/icons/github.svg);
+        }
+        .facebook-link {
+            -webkit-mask-image: url(assets/icons/facebook.svg);
+            mask-image: url(assets/icons/facebook.svg);
+        }
+        .instagram-link {
+            -webkit-mask-image: url(assets/icons/instagram.svg);
+            mask-image: url(assets/icons/instagram.svg);
+        }
+        .itunes-link {
+            -webkit-mask-image: url(assets/icons/itunes.svg);
+            mask-image: url(assets/icons/itunes.svg);
+        }
+        .spotify-link {
+            -webkit-mask-image: url(assets/icons/spotify.svg);
+            mask-image: url(assets/icons/spotify.svg);
+        }.twitter-link {
+            -webkit-mask-image: url(assets/icons/twitter.svg);
+            mask-image: url(assets/icons/twitter.svg);
+        }
+
 
     </style>
     <body>
-        <img class="profile-photo" width="50%" src="assets/red-background.jpg" />
-        <h1>Justin Volk</h1>
-        <h2>Musician, Audio Engineer, Software Engineer, <br />Chef, Photographer, Board Sports</h2>
+        <div class="card">
+            <img class="profile-photo" width="100%" src="assets/red-background.jpg" />
+            <h1>Justin Volk</h1>
+            <h2>Musician, Audio Engineer, Software Engineer, <br />Chef, Photographer, Board Sports</h2>
+            <ul class="social-links">
+                <li><a class="logo-link facebook-link" href="https://www.facebook.com/justinvolk1/" target="_blank"></a></li>
+                <li><a class="logo-link spotify-link" href="https://open.spotify.com/artist/5e6d9d8efzFGV7XMTxE4dP" target="_blank"></a></li>
+                <li><a class="logo-link instagram-link" href="https://www.instagram.com/justinvolk/" target="_blank"></a></li>
+                <li><a class="logo-link github-link" href="https://github.com/jdvolk" target="_blank"></a></li>
+                <li><a class="logo-link itunes-link" href="https://www.instagram.com/btycll/" target="_blank"></a></li>
+                <!--btycll instagram-->
+                <li><a class="logo-link twitter-link" href="https://twitter.com/Justin_Volk_" target="_blank"></a></li>
+            </ul>
+        </div>
 
     </body>
 
