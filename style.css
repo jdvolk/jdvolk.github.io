@@ -7,7 +7,7 @@
     object-fit: cover;
     max-height: 525px;
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 700ms;
 }
 .profile-photo.clicked {
     filter: blur(10px) grayscale(100%);
