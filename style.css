@@ -153,7 +153,7 @@ ipad
 }
 @media screen and (min-width: 1300px) {
     div.card {
-        margin-top: 0vh;
+        margin-top: auto;
         margin-bottom: 1vh;
         max-width: 80vh;
     }
