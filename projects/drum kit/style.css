@@ -1,0 +1,61 @@
+html {
+    font-size: 10px;
+    background: url(assets/808-machine.jpg) bottom center;
+    background-size: auto;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+div.keys{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #313131;
+    box-shadow: 0px 13px 20px 10px #111111;
+    max-width: 80%;
+}
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+    transform: translate(120px, 80%);
+}
+
+.key {
+    border: .4rem solid #02ccff;
+    border-radius: 30px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: #4ed9fc66;
+    text-shadow: 0 0 .5rem black;
+    box-shadow: 0 2px 30px black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}

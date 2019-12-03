@@ -19,7 +19,7 @@ body {
 h1, h2 {
     color: #cccccc;
     text-align: center;
-    text-shadow:#000000 0px 9px 13px;
+    text-shadow:#000000 0px 10px 13px;
 }
 h1 {
     font-weight: 500;
@@ -27,6 +27,12 @@ h1 {
 h2 {
     font-size: 18px;
     font-weight: 300;
+}
+h3 {
+    color: #cccccc;
+    text-shadow:#000000 0px 10px 13px;
+    font-weight: lighter;
+    padding-left: 8%;
 }
 div.card {
     text-align: center;
@@ -38,6 +44,25 @@ div.card {
     box-shadow: 0px 13px 20px 10px #111111;
     width: 80%;
     max-width: 700px;
+}
+div.projects {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #313131;
+    box-shadow: 0px 13px 20px 10px #111111;
+    width: 65vh;
+    font-size: 10px;
+}
+.drum-stick {
+    box-shadow: 0px 13px 20px 10px #111111;
+    display: inline-flexbox ;
+    border-radius: 30px;
+    object-fit:cover;
+    max-height: 60px;
+
 }
 /*
 ipad screen
@@ -93,7 +118,14 @@ ul.social-links {
 }
 ul.social-links li {
     display: inline-block;
-}    
+} 
+ul.project-list {
+    list-style: none;
+    padding: 0px;
+}  
+ul.project-list li {
+    display: inline-block;
+} 
 .logo-link {
     background-color: #5178a0;
     display: inline-block;
@@ -175,7 +207,7 @@ ipad
 }
 @media not all and (min-resolution:.001dpcm) {
     .profile-photo {
-        max-height: 400px;
+        max-height: 450px;
         max-width: 60vh;
     }
     div.card {
