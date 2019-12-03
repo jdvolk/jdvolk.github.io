@@ -14,7 +14,7 @@
 }
 body {
     background-color: #1d1d1d;
-    font-family: sans-serif;   
+    font-family: sans-serif; 
 }
 h1, h2 {
     color: #cccccc;
@@ -29,7 +29,7 @@ h2 {
     font-weight: 300;
 }
 div.card {
-    text-align:center;
+    text-align: center;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -38,10 +38,54 @@ div.card {
     box-shadow: 0px 13px 20px 10px #111111;
     width: 80%;
     max-width: 700px;
-    top:50%;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
-    position: absolute;
+}
+/*
+ipad screen
+*/
+@media screen and (min-width: 699px){
+    div.card {
+        margin-top: 10vh;
+    }
+    h1 {
+        font-size: 40px
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+/*
+ipad pro screen
+*/
+@media screen and (min-height: 1200px) {
+    div.card {
+        margin-top: 9vh;
+    }
+    .profile-photo {
+        max-height: 800px;
+    }
+    h1 {
+        font-size: 60px
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+/*
+pixel, iphone 6, 7, 8 screen
+*/
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    div.card {
+        margin-top: 3vh;
+    } 
+
+}
+/*
+tall phones ie iphone x
+*/
+@media screen and (min-height: 750px) and (max-height: 900px) {
+    div.card {
+        margin-top: 9vh;
+    }
 }
 ul.social-links {
     list-style: none;
@@ -65,6 +109,50 @@ ul.social-links li {
     transition-property: all;
     transition-duration: 700ms;
 }
+/*
+iphone se and smaller for link button sizes
+*/
+@media screen and (max-width: 346px) {
+    .logo-link {
+        width: 30px;
+        height: 30px;
+    }
+    h1 {
+        font-size: 30px
+    }
+    h2 {
+        font-size: 15px;
+    }
+}
+/*
+pixel, iphone 6, 7, 8 screen
+*/
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .logo-link {
+        width: 45px;
+        height: 45px
+    }
+}
+/*
+ipad pro
+*/
+@media screen and (min-height: 1200px) {
+    .logo-link {
+        width: 60px;
+        height: 60px;
+    }
+}
+/*
+ipad
+*/
+@media screen and (min-width: 699px){
+    .logo-link {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
 .logo-link:hover{
     background-color: #c54441;
     transform: rotate(30deg);
