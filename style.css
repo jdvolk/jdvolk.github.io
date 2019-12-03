@@ -173,7 +173,7 @@ ipad
 
     }
 }
-@media not all and (min-resolution:.001dpcm) { @media {
+@media not all and (min-resolution:.001dpcm) {
     .profile-photo {
         max-height: 400px;
         max-width: 60vh;
