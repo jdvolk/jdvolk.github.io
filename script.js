@@ -5,4 +5,3 @@ profilePhoto.addEventListener("click", function() {
         profilePhoto.classList.toggle("clicked");
     }, 700);
 });
-
