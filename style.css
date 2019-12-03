@@ -151,11 +151,11 @@ ipad
         height: 60px;
     }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1100px) {
     div.card {
         margin-top: auto;
         margin-bottom: 1vh;
-        max-width: 80vh;
+        max-width: 63vh;
     }
     .logo-link {
         width: 50px;
@@ -168,12 +168,22 @@ ipad
         font-size: 15px;
     }
     .profile-photo {
-        max-height: 525px;
-        max-width: 80vh;
+        max-height: 500px;
+        max-width: 60vh;
 
     }
 }
-.logo-link:hover{
+@media not all and (min-resolution:.001dpcm) { @media {
+    .profile-photo {
+        max-height: 400px;
+        max-width: 60vh;
+    }
+    div.card {
+        width: 425px;
+        max-width: 700px;
+    }
+}
+.logo-link:hover {
     background-color: #c54441;
     transform: rotate(30deg);
 }
