@@ -29,7 +29,6 @@ div.keys{
     margin-bottom: 10%;
     flex-wrap: wrap;
     margin-top: auto;
-
 }
 
 .key {
@@ -49,6 +48,7 @@ div.keys{
     width: 59px;
     cursor: pointer;
     user-select: none;
+    touch-action: manipulation;
 }
 
 .playing {
