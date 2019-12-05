@@ -53,7 +53,8 @@ div.projects {
     border-radius: 30px;
     background-color: #313131;
     box-shadow: 0px 13px 20px 10px #111111;
-    width: 65vh;
+    width: 80%;
+    max-width: 700px;
     font-size: 10px;
 }
 .drum-stick {
@@ -203,6 +204,11 @@ ipad
         max-height: 500px;
         max-width: 60vh;
 
+    }
+    div.projects {
+        margin-top: auto;
+        margin-bottom: 1vh;
+        max-width: 63vh;
     }
 }
 @media not all and (min-resolution:.001dpcm) {
