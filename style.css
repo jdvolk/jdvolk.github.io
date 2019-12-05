@@ -1,3 +1,6 @@
+html {
+    -webkit-tap-highlight-color: transparent;
+}
 .profile-photo {
     display: block;
     margin-left: auto;
