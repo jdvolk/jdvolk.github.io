@@ -2,7 +2,7 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 .profile-photo {
-    animation: animation 1000ms linear both;
+    animation: animation 1500ms linear both;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -171,11 +171,8 @@ pixel, iphone 6, 7, 8 screen
 */
 @media screen and (min-width: 400px) and (max-width: 700px) {
     div.card {
+        margin-top: 0vh;
         max-height: 90%;
-    }
-    .logo-link {
-        width: 45px;
-        height: 45px
     }
     ul.social-link {
         padding: 5px;
