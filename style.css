@@ -204,6 +204,7 @@ ipad
         margin-top: 5px;
         margin-bottom: 1vh;
         max-width: 40vw;
+        max-height: 675px;
     }
     .logo-link {
         width: 60px;
