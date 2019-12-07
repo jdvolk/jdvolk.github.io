@@ -70,7 +70,8 @@ div.projects {
     object-fit:cover;
     text-decoration: none;
     text-align: center;
-
+    max-width: 110px;
+    max-height: 110px;   
 }
 /*
 ipad screen
@@ -255,4 +256,8 @@ ipad
 .twitter-link {
     -webkit-mask-image: url(assets/icons/twitter.svg);
     mask-image: url(assets/icons/twitter.svg);
+}
+.linkedin-link {
+    -webkit-mask-image: url(assets/icons/linked-in.svg);
+    mask-image: url(assets/icons/linked-in.svg);
 }
