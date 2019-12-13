@@ -1,0 +1,61 @@
+html {
+    -webkit-tap-highlight-color: transparent;
+    font-family: sans-serif; 
+}
+body {
+    margin: 0px;
+    padding-top: 25px;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #3d3d3d;
+    background: radial-gradient(circle, #84394c9e 12%, black 98%), url(assets/chain-background-repeat.png);
+    background-position-x: center;
+    background-repeat: repeat;
+    background-blend-mode: hard-light;
+    box-shadow: inset 1px 20px 20px 6px #000000c7
+}
+.logo-photo {
+    display: block;
+    width: 80%;
+    max-width: 704px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    box-shadow: 0px 8px 20px 20px #000000bd;
+}
+.main-container {
+    filter: saturate(139%);
+}
+.button-container {
+}
+ul.social-links {
+    list-style: none;
+    padding: 0px;
+}
+ul.social-links li {
+    display: inline-block;
+    
+}
+.social-link:hover {
+    background-color: #c54441;
+    transform: rotate(30deg);
+}
+.social-links {
+    background-color: #84394c9e;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    mask-size: cover;
+    mask-position: center;
+    mask-repeat:no-repeat;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat:no-repeat;
+    filter: saturate(2);
+    transition-property: all;
+    transition-duration: 700ms;
+}
+a {
+    border-radius: 40px;
+    box-shadow: 0px 8px 20px 20px #000000bd;
+}
