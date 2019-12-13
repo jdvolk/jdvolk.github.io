@@ -13,6 +13,7 @@ body {
     background-repeat: repeat;
     background-blend-mode: hard-light;
     box-shadow: inset 1px 20px 20px 6px #000000c7
+    
 }
 .logo-photo {
     display: block;
@@ -26,25 +27,29 @@ body {
 .main-container {
     filter: saturate(139%);
 }
-.button-container {
+
+
+.facebook-link {
+    -webkit-mask-image: url(icons/facebook.svg);
+    mask-image: url(icons/facebook.svg);
 }
-ul.social-links {
-    list-style: none;
-    padding: 0px;
+.spotify-link {
+    -webkit-mask-image: url(icons/spotify.svg);
+    mask-image: url(icons/spotify.svg);
 }
-ul.social-links li {
+.instagram-link {
+    -webkit-mask-image: url(icons/instagram.svg);
+    mask-image: url(icons/instagram.svg);
+}
+.itunes-link {
+    -webkit-mask-image: url(icons/itunes.svg);
+    mask-image: url(icons/itunes.svg);
+}
+.logo-link {
+    background-color: #ffffff;
     display: inline-block;
-    
-}
-.social-link:hover {
-    background-color: #c54441;
-    transform: rotate(30deg);
-}
-.social-links {
-    background-color: #84394c9e;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     mask-size: cover;
     mask-position: center;
     mask-repeat:no-repeat;
@@ -55,7 +60,30 @@ ul.social-links li {
     transition-property: all;
     transition-duration: 700ms;
 }
-a {
+ul.social-links {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    background-color: hsla(348, 22%, 8%, 0.72);
+    margin-top: 20px;
+    box-shadow: inset 0px 8px 20px 20px #000000bd;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 40px;
-    box-shadow: 0px 8px 20px 20px #000000bd;
+}
+ul.social-links li {
+    display: inline-block;
+    padding: 5px;
+}
+.logo-link:hover {
+    background-color: #ff9ec2;
+    transform: rotate(30deg);
+}
+.play-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px 20px #000000bd; 
 }
