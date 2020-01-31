@@ -20,7 +20,7 @@ body,html {
 div.keys{
     border-radius: 30px;
     background-color: #313131;
-    box-shadow: 0px 13px 20px 10px #111111;
+    box-shadow: 9px 9px 30px 0px #1d1c1c, inset -5px -4px 20px 0px #3e3d3d;
     padding-top: 30px;
     padding-bottom: 30px;
     justify-content: center;
@@ -38,16 +38,14 @@ div.keys{
 
 .key {
     display: inline-block;
-    border: .1rem inset #02ccff;
     border-radius: 30px;
     font-size: 10px;
     padding: 20px 20px;
     transition: all .07s ease;
     text-align: center;
     color: white;
-    background: #4ed9fc66;
     text-shadow: 0 0 .5rem black;
-    box-shadow: 0 2px 30px black;
+    box-shadow: 6px 5px 13px 0px #1d1c1c, -3px -4px 11px 0px #3e3d3d;
     margin: 4px;
     height: 49px;
     width: 59px;
