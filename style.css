@@ -47,8 +47,7 @@ div.card {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
-    background-color: #313131;
+    border-radius: 30px;    
     box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525;
     width: 80%;
     max-width: 700px;
@@ -59,7 +58,6 @@ div.projects {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    background-color: #313131;
     box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525;
     width: 80%;
     max-width: 700px;
