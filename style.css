@@ -48,7 +48,7 @@ div.card {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;    
-    box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525;
+    box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525,  -7px -6px 20px 5px #232323;
     width: 80%;
     max-width: 700px;
 }
@@ -58,7 +58,7 @@ div.projects {
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525;
+    box-shadow: inset 6px 6px 20px 10px #111111, inset -20px -19px 20px 0px #252525,  -7px -6px 20px 5px #232323;
     width: 80%;
     max-width: 700px;
     font-size: 10px;
