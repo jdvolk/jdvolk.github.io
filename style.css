@@ -292,11 +292,3 @@ ipad
     animation: animation 1000ms linear both;
   }
   
-  /* Generated with Bounce.js. Edit at http://bouncejs.com#%7Bs%3A%5B%7BT%3A%22r%22%2Ce%3A%22b%22%2Cd%3A1000%2CD%3A0%2Cf%3A0%2Ct%3A90%2Cs%3A3%2Cb%3A4%7D%2C%7BT%3A%22k%22%2Ce%3A%22s%22%2Cd%3A1000%2CD%3A0%2Cf%3A%7Bx%3A0%2Cy%3A0%7D%2Ct%3A%7Bx%3A20%2Cy%3A20%7D%2Cs%3A3%2Cb%3A4%7D%5D%7D */
-  
-
-
-  .animation-target {
-    -webkit-animation: animation 3000ms linear both;
-    animation: animation 3000ms linear both;
-  }
